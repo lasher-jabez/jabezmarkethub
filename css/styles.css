@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #37475a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Product Form */
+.add-product-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-section h2 {
+    margin-bottom: 20px;
+}
+
+.add-product-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-product-section button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.add-product-section button:hover {
+    background-color: #e68a00;
+}
+
+/* Product Grid */
+.product-grid {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #555;
+}
+
+.product .price {
+    color: #b12704;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product a {
+    padding: 10px 15px;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.product a:hover {
+    background-color: #e68a00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}

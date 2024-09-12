@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JabezMarketHub</title> <!-- Your website name -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">JabezMarketHub</h1> <!-- Your website name -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+            <div class="user-section">
+                <a href="#">Account</a>
+                <a href="#">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Home Goods</a></li>
+            <li><a href="#">Toys & Games</a></li>
+            <li><a href="#">Deals</a></li>
+        </ul>
+    </nav>
+
+    <!-- Product Posting Form -->
+    <section class="add-product-section">
+        <h2>Add a New Product</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="text" id="product-description" placeholder="Product Description" required>
+            <input type="text" id="product-price" placeholder="Product Price" required>
+            <input type="text" id="product-image" placeholder="Image URL" required>
+            <input type="text" id="product-link" placeholder="Affiliate Link" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </section>
+
+    <!-- Product Listing Section (Initially Empty) -->
+    <section class="product-grid">
+        <h2>Featured Products</h2>
+        <div class="product-list" id="product-list">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 JabezMarketHub | All Rights Reserved</p>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
